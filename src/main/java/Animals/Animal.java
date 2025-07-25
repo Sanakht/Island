@@ -1,13 +1,25 @@
 package Animals;
 
+import java.util.Map;
+
 public abstract class Animal {
+
+    private double weight;
+    private int maxSpeed;
+    private double maxSatiety;
+    private double actualSatiety;
+    private int countOnOneCell;
+    private Map<String, Integer> probabilityEaten;
+
+
+
     public void eat() {
-        System.out.println("eat");
+
     }
     public void reproduce() {
-        System.out.println("reproduce");
+
     }
     public void move(){
-        System.out.println("move");
+
     }
 }
