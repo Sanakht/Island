@@ -1,4 +1,4 @@
-package Animal;
+package Animals;
 
 public abstract class Herbivore extends Animal {
 }
